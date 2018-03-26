@@ -1,6 +1,6 @@
+// must have ffmpeg installed - if you have a mac, just use homebrew
 const readline = require('readline');
 const ytdl = require('ytdl-core');
-// const ffmpegInstaller = require('@ffmpeg-installer/ffmpeg');
 const ffmpeg = require('fluent-ffmpeg');
 
 let videoID = 'c4G2sWk5jvM';
