@@ -3,7 +3,7 @@ const readline = require('readline');
 const ytdl = require('ytdl-core');
 const ffmpeg = require('fluent-ffmpeg');
 
-let videoID = 'c4G2sWk5jvM';
+let videoID = process.argv[2].split('v=')[1];
 
 let stream = ytdl(videoID, {
   quality: 'highestaudio'
